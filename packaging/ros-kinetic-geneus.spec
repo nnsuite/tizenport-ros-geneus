@@ -31,6 +31,7 @@ cp %{SOURCE1001} .
 %files -f build/install_manifest.txt
 %manifest %{name}.manifest
 %defattr(-,root,root)
+%{__ros_install_path}/lib/python2.7/site-packages/*
 
 %changelog
 * Fri Apr  7 2017 Zhang Xingtao <xingtao.zhang@yahoo.com> - 0.5.8
